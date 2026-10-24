@@ -2777,7 +2777,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: rgba(21, 38, 23, 0.8);
+				background-color: #001370cf;
 				background-image: url("images/overlay.png");
 			}
 
@@ -2858,7 +2858,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background-color: #353c37;
+				background-color: #061b58;
 				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
