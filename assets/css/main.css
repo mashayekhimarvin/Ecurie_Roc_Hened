@@ -51,6 +51,19 @@ table {
 	border-spacing: 0;
 }
 
+#image-haut-site {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.image-haut-site {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -3155,5 +3168,94 @@ input, select, textarea {
     .prestations-texte,
     .prestations-image {
         width: 100%;
+    }
+}
+
+
+/* Section de présentation */
+#presentation-equipe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+/* Bloc individuel */
+#presentation-equipe .personne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Portrait rond */
+#presentation-equipe .personne img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Prénom */
+#presentation-equipe .personne p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Adaptation mobile */
+@media screen and (max-width: 600px) {
+    #presentation-equipe {
+        gap: 50px;
+        padding: 0px 10px;
+    }
+
+    #presentation-equipe .personne img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+#contact-carte {
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+#contact-carte h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.carte-google {
+    width: 100%;
+    max-width: 1100px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carte-google iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #contact-carte {
+        padding: 25px 10px;
+    }
+
+    .carte-google {
+        height: 300px;
+        border-radius: 8px;
     }
 }
