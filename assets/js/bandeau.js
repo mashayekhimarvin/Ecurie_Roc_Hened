@@ -1,6 +1,6 @@
 
 (function () {
-    const mediaMobile = window.matchMedia('(max-width: 736px)');
+    const mediaMobile = window.matchMedia('(max-width: 980px)');
 
     function gererBandeau() {
         const bandeau = document.getElementById('titleBar');
