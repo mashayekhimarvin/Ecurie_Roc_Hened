@@ -3402,3 +3402,9 @@ input, select, textarea {
         line-height: 1.2;
     }
 }
+
+
+.lire-suite {
+    color: inherit;
+    text-decoration: underline;
+}
