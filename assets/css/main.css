@@ -3376,13 +3376,6 @@ input, select, textarea {
     margin-top: 10px;
 }
 
-.disciplines-grid {
-    border: 2px solid red;
-}
-
-.discipline-card {
-    border: 2px solid blue;
-}
 
 /* Mobile */
 @media screen and (max-width: 768px) {
