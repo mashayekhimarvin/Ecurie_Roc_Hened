@@ -1876,6 +1876,11 @@ input, select, textarea {
 			font-size: 1.65em;
 		}
 
+		.button.small {
+    font-size: 1em;
+    padding: 0.6em 1.2em;
+}
+
 /* List */
 
 	ul {
