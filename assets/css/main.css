@@ -3287,3 +3287,47 @@ input, select, textarea {
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 736px) {
+
+    body.homepage #titleBar {
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    body.homepage #titleBar::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: #001370cf;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    body.homepage #titleBar.bandeau-visible::before {
+        opacity: 1;
+    }
+
+    body.homepage #titleBar:not(.bandeau-visible) .title {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    body.homepage #titleBar .title {
+        transition: opacity 0.3s ease;
+    }
+
+    body.homepage #titleBar.bandeau-visible .title {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+/* Masquer le header uniquement sur index, en mode web */
+@media screen and (min-width: 737px) {
+    body.homepage #header {
+        display: none;
+    }
+}
