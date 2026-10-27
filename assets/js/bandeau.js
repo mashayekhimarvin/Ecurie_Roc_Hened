@@ -6,7 +6,7 @@
         const bandeau = document.getElementById('titleBar');
         if (!bandeau) return false;
 
-        const visible = mediaMobile.matches && window.scrollY > 230;
+        const visible = mediaMobile.matches && window.scrollY > 180;
 
         bandeau.classList.toggle('bandeau-visible', visible);
 
