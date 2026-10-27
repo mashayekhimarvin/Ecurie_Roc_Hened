@@ -3288,7 +3288,7 @@ input, select, textarea {
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 980px) {
 
     body.homepage #titleBar {
         background-color: transparent !important;
