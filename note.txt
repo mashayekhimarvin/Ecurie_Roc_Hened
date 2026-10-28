@@ -1,0 +1,6 @@
+modifier line sur les texte commerce.pension etc. sur index
+Créer une section dédié "Cheveaux à vendre" tout comme Nos installations
+
+Rapeller les cheaveaux à vendre en index ou mettre un bouton qui se voit bien
+
+Dans la page valorisation mettre un pragraphe sur l'accompagnement à la vente
