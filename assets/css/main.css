@@ -3489,6 +3489,12 @@ input, select, textarea {
     border-radius: 10px;
 }
 
+.btn-photos {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
 /* Description */
 
 .horse-description {
@@ -3638,7 +3644,7 @@ input, select, textarea {
 
 /* Responsive */
 
-@@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .pedigree-scroll {
         overflow-x: auto;
@@ -3667,4 +3673,76 @@ input, select, textarea {
     }	
 }
 
+.modal {
+    display: none; /* Cachée au chargement */
+    position: fixed;
+    z-index: 9999;
 
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.6);
+
+    /* Centrage */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    width: 95%;
+    max-width: 1200px;
+    height: 85vh;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    overflow: auto;
+
+    position: relative; /* IMPORTANT pour la croix */
+}
+
+.close {
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.photo-viewer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#photoPrincipale {
+    max-width: 100%;
+    max-height: 60vh;
+    border-radius: 10px;
+}
+
+.miniatures {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.miniatures img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.miniatures img:hover {
+    opacity: 0.8;
+}

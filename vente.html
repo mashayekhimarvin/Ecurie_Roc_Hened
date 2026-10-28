@@ -56,7 +56,9 @@
 				
 				
 				
-				
+			<button id="openModal">Afficher le texte</button>
+
+
 
 			<!-- Main -->
 			
@@ -66,7 +68,7 @@
 					<div class="horse-card">
 						<div class="horse-header">
 							<div class="horse-info">
-								<h4>Fidji de Roc'H Hened</h4>
+								<h4 class="horse-title">Fidji de Roc'H Hened</h4>
 								<ul class="horse-details">
 									<li>🎂 7 ans</li>
 									<li>♂ Hongre</li>
@@ -77,6 +79,7 @@
 							</div>
 							<div class="horse-image">
 								<img src="images/cheval2.jpg" alt="Nos prestations">
+								<button class="btn-photos"data-cheval="cheval1">Voir les photos</button>
 							</div>
 						</div>						
 						<div class="horse-description">
@@ -126,7 +129,7 @@
 					<div class="horse-card sold">
 						<div class="horse-header">
 							<div class="horse-info">
-								<h4>Fidji de Roc'H Hened</h4>
+								<h4 class="horse-title">Gros boule de Roc'H Hened</h4> <!-- La classe permet de recuperer le nom du cheval pour la modale -->
 								<ul class="horse-details">
 									<li>🎂 7 ans</li>
 									<li>♂ Hongre</li>
@@ -137,6 +140,7 @@
 							</div>
 							<div class="horse-image">
 								<img src="images/cheval2.jpg" alt="Nos prestations">
+								<button class="btn-photos"data-cheval="cheval2">Voir les photos</button>
 							</div>
 						</div>						
 						<div class="horse-description">
@@ -231,6 +235,26 @@
 				</footer>
 
 		</div>
+		<!-- Fenetre modale pour les photos des cheveaux -->
+		<div id="modalPhotos" class="modal">
+
+			<div class="modal-content">
+
+				<span class="close">&times;</span>
+
+				<h2 id="modalTitre">Photos du cheval</h2>
+
+				<div class="photo-viewer">
+
+					<img id="photoPrincipale" src="" alt="Photo du cheval">
+
+				</div>
+
+				<div id="miniatures" class="miniatures"></div>
+
+			</div>
+
+		</div>	
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -240,6 +264,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modale1.js"></script>
 
 	</body>
 </html>
