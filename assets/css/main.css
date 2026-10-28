@@ -3413,6 +3413,8 @@ input, select, textarea {
 .horse-card {
     max-width: 1100px;
     margin: 40px auto;
+	margin-top: 0px;
+	margin-bottom: 40px;
     padding: 30px;
     border: 1px solid #ddd;
     border-radius: 15px;
