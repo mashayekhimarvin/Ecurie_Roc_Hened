@@ -3169,6 +3169,11 @@ input, select, textarea {
     border-radius: 8px;
 }
 
+/* A utiliser si deux colonnes texte, pour réduire le gap en mode responsive surtout */
+.gap-reduit {
+    gap: 0px;
+}
+
 /* Inversion de la disposition prestation */
 .prestations-container.inverse {
     flex-direction: row-reverse;
