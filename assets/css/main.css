@@ -3169,9 +3169,16 @@ input, select, textarea {
     border-radius: 8px;
 }
 
+/* Inversion de la disposition prestation */
+.prestations-container.inverse {
+    flex-direction: row-reverse;
+}
+
+
 /* Mobile */
 @media screen and (max-width: 736px) {
-    .prestations-container {
+     .prestations-container,
+    .prestations-container.inverse {
         flex-direction: column;
         align-items: stretch;
     }
@@ -3180,11 +3187,6 @@ input, select, textarea {
     .prestations-image {
         width: 100%;
     }
-}
-
-/* Inversion de la disposition prestation */
-.prestations-container.inverse {
-    flex-direction: row-reverse;
 }
 
 
