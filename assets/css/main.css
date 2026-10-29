@@ -3806,3 +3806,79 @@ input, select, textarea {
 .plan-site a {
     white-space: nowrap;
 }
+#valorisation {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.process-scroll {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding: 2rem;
+    scrollbar-width: thin;
+}
+
+.process-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.process-scroll::-webkit-scrollbar-thumb {
+    background: #7a8a6a;
+    border-radius: 50px;
+}
+
+.step {
+    flex: 0 0 auto;
+    width: 240px;
+}
+
+.step img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #7a8a6a;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto -20px;
+    background: #2f5535;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+
+.step h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #2f5535;
+    height: 220px; /* même hauteur que l'image */
+}
+
+.step p {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
