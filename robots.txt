@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roc-hened.fr/sitemap.xml

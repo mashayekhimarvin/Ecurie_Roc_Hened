@@ -2587,7 +2587,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 3em 0 3em 0;
 	}
 
 		#footer a {
@@ -3244,13 +3244,13 @@ input, select, textarea {
     }
 }
 
-
+/* A supp */
 #contact-carte {
     width: 100%;
     padding: 40px 20px;
     box-sizing: border-box;
 }
-
+/* A supp */
 #contact-carte h2 {
     text-align: center;
     margin-bottom: 25px;
@@ -3275,7 +3275,7 @@ input, select, textarea {
 @media screen and (max-width: 600px) {
     #contact-carte {
         padding: 25px 10px;
-    }
+    }/* A supp */
 
     .carte-google {
         height: 300px;
@@ -3283,17 +3283,17 @@ input, select, textarea {
     }
 }
 
-
+/* A supp */
 #contact-plan .lien-plan {
     display: block;
     width: fit-content;
     max-width: 100%;
     margin: 0 auto;
 }
-
+/* A supp */
 #contact-plan .lien-plan img {
     display: block;
-    height: 400px;
+    height: 250px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
@@ -3791,6 +3791,7 @@ input, select, textarea {
 	margin-left : 5%;
     text-align: left;
 	display: block;
+	font-size: 0.9em;
 }
 
 .plan-site ul {
