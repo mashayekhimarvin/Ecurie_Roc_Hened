@@ -3784,3 +3784,24 @@ input, select, textarea {
 	cursor: pointer;
     text-decoration: underline;
 }
+
+.plan-site {
+    width: fit-content;
+    margin: 0 auto;
+	margin-left : 5%;
+    text-align: left;
+	display: block;
+}
+
+.plan-site ul {
+    margin-bottom: 0;
+}
+
+.plan-site ul ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.plan-site a {
+    white-space: nowrap;
+}
