@@ -1,29 +1,34 @@
 const installations = {
 
-/*     ecurie: {
+     ecurie: {
         photos: [
+            "images/installations/instal_pre2.jpg",
+            "images/installations/installations_ecurie3.jpg",
             "images/installations/instal_douche.jpg",
-            "",
-            ""
+            "images/installations/installations_ecurie2.jpg",
+            "images/installations/installations_ecurie1.jpg"
+            
         ]
-    }, */
+    },
 
      manege: {
         photos: [
-            "images/installations/installation_manege2.jpeg",
+            "images/installations/instal_manege.jpg",
             "images/installations/instal_manege2.jpg",
-            "images/installations/instal_manege.jpg"
+            "images/installations/installation_manege2.jpeg"
         ]
     },
 
      pres: {
         photos: [
-            "images/installations/instal_pre2.jpg",
+            "images/installations/installations_pres7.jpg",
             "images/installations/instal_pre1.jpg",
             "images/installations/instal_pre3.jpg",
+            "images/installations/instal_abris_pre.jpg",
             "images/installations/instal_pre4.jpg",
             "images/installations/instal_pre5.jpg",
-            "images/installations/instal_pre6.jpg"
+            "images/installations/instal_pre6.jpg",
+            "images/installations/installation_pres_8.jpg"
         ]
     },
 
