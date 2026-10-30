@@ -3817,7 +3817,7 @@ input, select, textarea {
 
 .process-scroll {
     display: flex;
-    align-items: center;
+    align-items: flex-start
     overflow-x: auto;
     gap: 1.5rem;
     padding: 2rem;
