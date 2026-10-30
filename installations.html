@@ -96,6 +96,7 @@
 													<!-- Colonne droite : image -->
 													<div class="prestations-image">
 														<img src="images/installation_ecurie.jpg" alt="Installation des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<!-- <button class="btn-photos"data-installations="ecurie">Voir plus de photo</button> -->
 													</div>
 												</div>
 											</section>
@@ -117,7 +118,8 @@
 													</div>
 													<!-- Colonne gauche : image -->
 													<div class="prestations-image">
-														<img src="images/installation_manege2.jpeg" alt="Le manège des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<img src="images/installations/installation_manege2.jpeg" alt="Le manège des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<button class="btn-photos"data-installations="manege">Voir plus de photo</button>
 													</div>
 												</div>
 											</section>
@@ -141,7 +143,8 @@
 													</div>
 													<!-- Colonne droite : image -->
 													<div class="prestations-image">
-														<img src="images/installation_pres.png" alt="Les près des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<img src="images/installations/instal_pre2.jpg" alt="Les près des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<button class="btn-photos"data-installations="pres">Voir plus de photo</button>
 													</div>
 												</div>
 											</section>
@@ -164,7 +167,8 @@
 													</div>
 													<!-- Colonne gauche : image -->
 													<div class="prestations-image">
-														<img src="images/installation_carriere2.jpeg" alt="La carrière des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<img src="images/installations/installation_carriere2.jpeg" alt="La carrière des écuries Roc Hened à Saint-Jean-Brevelay (56)">
+														<button class="btn-photos"data-installations="carriere">Voir plus de photo</button>
 													</div>
 												</div>
 											</section>
@@ -182,7 +186,7 @@
 													</div>
 													<!-- Colonne droite : image -->
 													<div class="prestations-image">
-														<img src="images/installation_camion.jpeg" alt="Transport des chevaux aux écuries Roc Hened dans le Morbihan">
+														<img src="images/installations/installation_camion.jpeg" alt="Transport des chevaux aux écuries Roc Hened dans le Morbihan">
 													</div>
 												</div>
 											</section>
@@ -260,6 +264,27 @@
 
 		</div>
 
+		<!-- Fenetre modale pour les photos des installations -->
+		<div id="modal2Photos" class="modal">
+
+			<div class="modal-content">
+
+				<span class="close">&times;</span>
+
+				<h2 id="modal2Titre">Photos des installations</h2>
+
+				<div class="photo-viewer">
+
+					<img id="photoPrincipale" src="" alt="Photos des installations des écuries Roc Hened">
+
+				</div>
+
+				<div id="miniatures" class="miniatures"></div>
+
+			</div>
+
+		</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -268,6 +293,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modale2.js"></script>
 
 	</body>
 </html>

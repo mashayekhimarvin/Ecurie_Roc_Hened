@@ -3759,6 +3759,14 @@ input, select, textarea {
     opacity: 0.8;
 }
 
+@media screen and (max-width: 736px) {
+
+    .miniatures {
+        justify-content: flex-start;
+    }
+
+}
+
 /* Texte caché sur les carte des cheveaux à vendre */
 .texte-cache {
     display: none;
