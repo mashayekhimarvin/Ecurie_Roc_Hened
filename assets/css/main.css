@@ -3863,7 +3863,7 @@ input, select, textarea {
 }
 
 .step h3 {
-    margin-top: 1rem;
+    margin-top: 0px;
     font-size: 1.2rem;
 }
 
@@ -3884,4 +3884,12 @@ input, select, textarea {
     max-width: 220px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.icone-svg-valorisation {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.2));
 }
