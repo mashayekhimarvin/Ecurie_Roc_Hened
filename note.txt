@@ -4,3 +4,60 @@ Créer une section dédié "Cheveaux à vendre" tout comme Nos installations
 Rapeller les cheaveaux à vendre en index ou mettre un bouton qui se voit bien
 
 Dans la page valorisation mettre un pragraphe sur l'accompagnement à la vente
+
+
+
+Qaund le site sera heberger, actions à effectuer pour SEO : 
+
+Dans index.html, ajouter cela : 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Écuries Roc Hened",
+  "description": "Pension pour chevaux, coaching, valorisation et vente de chevaux dans le Morbihan.",
+  "url": "https://www.roc-hened.fr",
+  "telephone": "+33XXXXXXXXX",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "BAS MOULAC",
+    "addressLocality": "Saint-Jean-Brévelay",
+    "postalCode": "56660",
+    "addressRegion": "Bretagne",
+    "addressCountry": "FR"
+  },
+  "areaServed": [
+    "Saint-Jean-Brévelay",
+    "Vannes",
+    "Colpo",
+    "Grand-Champ",
+    "Locminé",
+    "Ploërmel",
+    "Pontivy"
+  ],
+  "image": "https://www.roc-hened.fr/images/roc_hened_logo.jpeg",
+  "sameAs": [
+    "https://www.facebook.com/DrulaClement/",
+    "https://www.instagram.com/ecurie.roc.hened/"
+  ]
+}
+</script>
+
+Completer les données suivantes : 
+url
+telephone
+
+
+A mettre juste avant la fermeture du head
+
+<head>
+    ...
+    <script type="application/ld+json">
+    ...
+    </script>
+</head>
+
+✅ Données structurées Schema.org
+ ✅ Google Business Profile
+ ✅ Google Search Console
