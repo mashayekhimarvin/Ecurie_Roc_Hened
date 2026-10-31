@@ -3901,6 +3901,6 @@ input, select, textarea {
 }
 
 .page-actualite br {
-    display: initial !important;
+    display: initial ;
 }
 
