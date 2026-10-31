@@ -2128,6 +2128,7 @@ input, select, textarea {
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+	input[type="tel"],
 	form select,
 	form textarea {
 		-webkit-appearance: none;
@@ -2139,6 +2140,7 @@ input, select, textarea {
 
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
+		input[type="tel"]:focus,
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
@@ -2147,6 +2149,7 @@ input, select, textarea {
 
 	form input[type="text"],
 	form input[type="email"],
+	input[type="tel"],
 	form input[type="password"],
 	form select {
 		line-height: 3em;
@@ -2569,7 +2572,7 @@ input, select, textarea {
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
-		padding: 6em 0 6em 0;
+		padding: 3em 0 6em 0;
 	}
 
 /* Sidebar + Content */
@@ -2587,7 +2590,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 3em 0 3em 0;
+		padding: 1em 0 3em 0;
 	}
 
 		#footer a {
@@ -2595,12 +2598,13 @@ input, select, textarea {
 		}
 
 		#footer h2.major {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1em 0;
 		}
 
 			#footer h2.major span {
 				background: #f2f5f3;
 			}
+
 
 /* Copyright */
 
@@ -2708,7 +2712,8 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 6em 0 6em 0;
+				padding: 1em 0 6em 0;
+				/* padding: 6em 0 6em 0; */
 			}
 
 	}
@@ -3091,7 +3096,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 3em 0;
+				padding: 2em 0;
 			}
 
 		/* Sidebar */
@@ -3105,7 +3110,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 		/* Copyright */

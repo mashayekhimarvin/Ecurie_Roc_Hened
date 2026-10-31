@@ -61,3 +61,5 @@ A mettre juste avant la fermeture du head
 ✅ Données structurées Schema.org
  ✅ Google Business Profile
  ✅ Google Search Console
+
+

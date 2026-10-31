@@ -55,15 +55,22 @@
 				<section id="main">
 					<div class="container">				
 							<div class="col-12">
+								<p style="text-align: center;">Écurie Roc Hened à Saint-Jean-Brevelay - Morbihan (56) <br>
+									📞 Téléphone :
+									<a tel:+33601294851>
+ 									   06 01 29 48 51
+										</a><br>
+									✉️ Email :
+									<a href="mailto:contact@roc-hened.fr">
+    								contact@roc-hened.fr
+									</a>
 								<!-- Features -->
-									<p class="rgpd">
-										En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées dans le cadre de votre demande de contact.
-										</p>
+
 										<h2 class="major" style="margin-bottom: 0px";><span>Nous trouver</span></h2>
                                             <section id="contact-carte">  
                                                     <div class="carte-google">
                                                         <!-- Remplace cette iframe par celle copiée depuis Google Maps -->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.171246351741!2d-2.752534484319347!3d47.84441970836487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4810270f32c97127%3A0x9fca9e9bcbbd88b7!2s2%20Bas%20Moulac%2C%2056660%20Saint-Jean-Br%C3%A9velay!5e1!3m2!1sfr!2sfr!4v1793045985680!5m2!1sfr!2sfr" 
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3176.164541592972!2d-2.7573541!3d47.8473257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2813f11f23f9a687%3A0x1332473a096e62d7!2sEcurie%20Roc%20Hened!5e1!3m2!1sfr!2sfr!4v1793430008915!5m2!1sfr!2sfr" 
                                                         width="1000" 
                                                         height="600" 
                                                         style="border:0;" 
@@ -73,7 +80,30 @@
                                                         </iframe>
                                                     </div>
                                                 </section>
-							</div>
+
+									<h2 class="major" style="margin-bottom: 0px";><span>Formulaire de contact</span></h2>
+									<form action="contact.php" method="post">
+										<input type="text" name="website" style="display:none">
+										<label style="margin-bottom: 0px;" for="nom">Nom</label>
+										<input type="text" id="nom" name="nom" required>
+
+										<label style="margin-bottom: 0px;margin-top: 10px;" for="email">E-mail</label>
+										<input type="email" id="email" name="email" required>
+
+										<label style="margin-bottom: 0px;margin-top: 10px;" for="telephone">Téléphone</label>
+										<input type="tel" id="telephone" name="telephone">
+
+										<label style="margin-bottom: 0px;margin-top: 10px;" for="message">Message</label>
+										<textarea id="message" name="message" rows="6" required></textarea>
+										<p class="rgpd">
+										En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées dans le cadre de votre demande de contact.
+										</p>
+										<button type="submit">Envoyer</button>
+
+									</form>
+
+									
+								</div>
 						
 					</div>
 				</section>
