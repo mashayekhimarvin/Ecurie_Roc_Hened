@@ -63,3 +63,31 @@ A mettre juste avant la fermeture du head
  ✅ Google Search Console
 
 
+
+
+Formulaire de contaxct PHP, reste à faire : 
+
+✅ 1. Créer l'adresse e-mail sur LWS
+✅ 2.Modifier le fichier contact.php
+Recevoir les données du formulaire
+Envoyer l'e-mail
+Gérer la redirection après envoi
+✅ 6. Déposer les fichiers sur LWS
+contact.html
+contact.php
+merci.html
+✅ 7. Tester l'envoi
+
+Vérifier :
+
+réception du mail ;
+dossier spam ;
+affichage de la page de remerciement ;
+contenu du mail reçu.
+✅ 8. Vérifier le responsive mobile
+
+Tester le formulaire :
+
+téléphone ;
+tablette ;
+ordinateur.
