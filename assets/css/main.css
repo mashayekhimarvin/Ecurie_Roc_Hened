@@ -3904,3 +3904,62 @@ input, select, textarea {
     display: initial ;
 }
 
+.resultats-scroll {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem 0 2rem 0;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+.resultats-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.resultats-scroll::-webkit-scrollbar-thumb {
+    background: #7a8a6a;
+    border-radius: 50px;
+}
+
+.resultat-card {
+    min-width: 320px;
+    max-width: 320px;
+    flex-shrink: 0;
+
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.12);
+
+    transition: transform .3s ease;
+}
+
+.resultat-card:hover {
+    transform: translateY(-5px);
+}
+
+.resultat-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.resultat-card h3 {
+    margin: 1rem 1rem .5rem;
+}
+
+.resultat-card p {
+    margin: 0 1rem;
+    color: #777;
+}
+
+.resultat-card ul {
+    padding: 1rem 2rem 1.5rem;
+    margin: 0;
+}
+
+.resultat-card li {
+    margin-bottom: .5rem;
+}
