@@ -1967,8 +1967,8 @@ input, select, textarea {
 				transition: background-color .2s ease-in-out;
 				display: block;
 				position: relative;
-				width: 48px;
-				height: 48px;
+				width: 35px;
+				height: 35px;
 				border-radius: 6px;
 				outline: 0;
 				background: #c1cac5;
@@ -1977,15 +1977,15 @@ input, select, textarea {
 
 				ul.contact li a:before {
 					color: #f2f5f3;
-					font-size: 32px;
-					line-height: 48px;
+					font-size: 20px;
+					line-height: 35px;
 				}
 
 			ul.contact li:hover {
 				top: -5px;
 			}
 
-				ul.contact li:hover a.fa-facebook {
+				ul.contact li:hover a.fa-facebook-f {
 					background-color: #3C5A98;
 				}
 
@@ -2007,6 +2007,14 @@ input, select, textarea {
 
 				ul.contact li:hover a.fa-google-plus {
 					background-color: #DA2713;
+				}
+
+				ul.contact li:hover a.fa-waze {
+					background-color: #33CCFF;
+				}
+
+				ul.contact li:hover a.fa-map-marker-alt {
+					background-color: #9e0606;
 				}
 
 			ul.contact li:active {
@@ -2628,7 +2636,7 @@ input, select, textarea {
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
 		color: #8b9790;
-		margin: 4em 0 0 0;
+		margin: 2em 0 0 0;
 	}
 
 		#copyright a {
