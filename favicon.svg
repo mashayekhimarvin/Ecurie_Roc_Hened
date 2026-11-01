@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fond -->
+  <rect width="512" height="512" rx="90" ry="90" fill="#E8E8E8"/>
+
+  <!-- Texte -->
+  <text
+    x="50%"
+    y="57%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="MS PGothic"
+    font-size="340"
+    font-weight="700"
+    fill="#000000">
+    RH.
+  </text>
+</svg>
