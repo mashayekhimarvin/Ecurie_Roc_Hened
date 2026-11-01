@@ -2,27 +2,26 @@ const chevaux = {
 
     cheval1: {
         photos: [
-            "images/vente/cheval1/cheval11.jpg",
-            "images/vente/cheval1/cheval12.jpg",
-            "images/vente/cheval1/cheval13.jpg"
+            "images/vente/cheval1/miss_brenda.jpg",
+            "images/vente/cheval1/da850c1c-757b-4bb9-a05d-20ffda3aab26.jpg",
+            "images/vente/cheval1/6c4195d9-bc8d-4ef8-a1a8-ebc896eb2c7b.jpg"
         ]
     },
 
      cheval2: {
         photos: [
-            "images/vente/cheval2/cheval21.jpg",
+            "images/vente/cheval2/Armitage1.jpg",
             "images/vente/cheval2/cheval22.jpg",
             "images/vente/cheval2/cheval23.jpg"
         ]
-    }
+    },
 
-/*     cheval3: {
+      cheval3: {
         photos: [
-            "images/vente/quartz/xx.jpg",
-            "images/vente/quartz/xx.jpg",
-            "images/vente/quartz/xx.jpg"
+             "images/vente/cheval3/025fce4a-72ba-4fb7-80f8-b49f6366cccb.jpg",
+             "images/vente/cheval3/ee3e851c-3d41-4eba-b61f-cb62f86b6aca.jpg"
         ]
-    } */
+    },
 
 /*     cheval4: {
         photos: [
@@ -30,7 +29,7 @@ const chevaux = {
             "images/vente/quartz/xx.jpg",
             "images/vente/quartz/xx.jpg"
         ]
-    } */
+    }, */
 
  
 
@@ -40,7 +39,7 @@ const chevaux = {
             "images/vente/quartz/xx.jpg",
             "images/vente/quartz/xx.jpg"
         ]
-    } */
+    }, */
 
 /*     cheval6: {
         photos: [
@@ -48,7 +47,7 @@ const chevaux = {
             "images/vente/quartz/xx.jpg",
             "images/vente/quartz/xx.jpg"
         ]
-    } */
+    }, */
 
 };
 
