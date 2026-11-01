@@ -3370,7 +3370,8 @@ input, select, textarea {
 .disciplines-coaching {
     width: 100%;
     text-align: center;
-    padding: 40px 0;
+    padding: 0px 0;
+	margin-bottom: 0;
 }
 
 .disciplines-coaching h4 {
@@ -3905,22 +3906,20 @@ input, select, textarea {
 }
 
 .resultats-scroll {
-    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	display: flex;
     gap: 2rem;
     overflow-x: auto;
-    padding: 1rem 0 2rem 0;
+
+    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
 }
 
 .resultats-scroll::-webkit-scrollbar {
-    height: 8px;
+    display: none;
 }
 
-.resultats-scroll::-webkit-scrollbar-thumb {
-    background: #7a8a6a;
-    border-radius: 50px;
-}
 
 .resultat-card {
     min-width: 320px;
@@ -3934,7 +3933,24 @@ input, select, textarea {
     box-shadow: 0 8px 25px rgba(0,0,0,.12);
 
     transition: transform .3s ease;
+	scroll-snap-align: center;
+	display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+@media screen and (max-width: 736px) {
+
+    .resultat-card {
+        flex: 0 0 70%;
+        width: 70%;
+        min-width: 70%;
+        max-width: 70%;
+    }
+
+}
+
+
 
 .resultat-card:hover {
     transform: translateY(-5px);
@@ -3956,10 +3972,123 @@ input, select, textarea {
 }
 
 .resultat-card ul {
-    padding: 1rem 2rem 1.5rem;
-    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem;
 }
 
 .resultat-card li {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resultats-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.resultats-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d0d0d0;
+    transition: all 0.3s ease;
+}
+
+.resultats-dots .dot.active {
+    background: #7a8a6a;
+    transform: scale(1.2);
+}
+
+.carousel-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0px;
+}
+
+.carousel-btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #7a8a6a;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+/* Survol souris */
+.carousel-btn:hover {
+    color: #5f6a53;
+}
+
+/* Desktop */
+.resultats-dots {
+    display: none;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d0d0d0;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #7a8a6a;
+}
+
+/* Aucun style particulier au clic */
+.carousel-btn:active {
+    color: inherit;
+}
+
+/* Aucun contour de focus */
+.carousel-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* masque la zone bouton en mode mobile */
+@media screen and (max-width: 736px) {
+
+    .carousel-navigation {
+        gap: 0;
+    }
+
+    .carousel-btn {
+        display: none;
+    }
+	    .resultats-dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+
+}
+
+.carousel-btn.disabled {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+}
+
+.infos-coaching .prestations-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.infos-coaching .prestations-texte {
+    flex: 1;
+}
+
+.infos-coaching .prestations-texte h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
