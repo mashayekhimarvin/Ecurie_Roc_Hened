@@ -11,8 +11,6 @@ const chevaux = {
      cheval2: {
         photos: [
             "images/vente/cheval2/Armitage1.jpg",
-            "images/vente/cheval2/cheval22.jpg",
-            "images/vente/cheval2/cheval23.jpg"
         ]
     },
 
