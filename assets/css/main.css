@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
-/*
-	TXT by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3231,13 +3226,19 @@ input, select, textarea {
     width: 100%;
     padding: 0px 20px;
     box-sizing: border-box;
+	margin-bottom: 25px;
 }
+
 
 /* Bloc individuel */
 #presentation-equipe .personne {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+#presentation-equipe-txt {
     text-align: center;
 }
 
@@ -4097,4 +4098,48 @@ input, select, textarea {
     text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
+}
+
+
+.rgpd-checkbox {
+    appearance: checkbox !important;
+    -webkit-appearance: checkbox !important;
+    -moz-appearance: checkbox !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    width: 20px;
+    height: 20px;
+}
+
+
+.colonnes-presentation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colonne-presentation {
+    flex: 1;
+    max-width: 500px;
+}
+
+ .colonne-presentation .major {
+    gap: 0px;
+} 
+
+@media screen and (max-width: 736px) {
+
+    .colonnes-presentation {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .colonne-presentation {
+        max-width: 100%;
+    }
+
 }

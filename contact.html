@@ -64,21 +64,29 @@
 				<section id="main">
 					<div class="container">				
 							<div class="col-12">
-								<p style="text-align: center;"><strong>Écurie Roc Hened</strong> <br>
+								<p style="text-align: center;margin-bottom: 10px;"><strong>Écurie Roc Hened</strong> <br>
 									📍Petit Kergroix, 56660 Saint-Jean-Brévelay<br>
 									📞 Téléphone :
 									<a tel:+33601294851>
  									   06 01 29 48 51
 										</a><br>
 									✉️ Email :
-									<a href="mailto:contact@roc-hened.fr">
-    								contact@roc-hened.fr
-									</a>
+									<a href="mailto:drula.c@gmx.fr">
+    								drula.c@gmx.fr
+									</a><br>
+										<ul class="contact" style="text-align: center; margin-bottom: 10px;">
+											<li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/DrulaClement/"target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
+											<!-- <li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li> -->
+											<li><a class="icon brands fa-instagram" href="https://www.instagram.com/ecurie.roc.hened/"target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+											<!-- <li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li> -->
+											<!-- <li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li> -->
+											 <li><a class="icon brands fa-brands fa-waze" href="https://ul.waze.com/ul?ll=47.84432410%2C-2.75136820&navigate=yes&zoom=17&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location"target="_blank" rel="noopener noreferrer"><span class="label">Waze</span></a></li>
+											<li><a class="icon solid fa-map-marker-alt" href="https://maps.app.goo.gl/gVAq7VS878HRiuEa7"target="_blank" rel="noopener noreferrer"><span class="label">Google Maps</span></a></li>
+										</ul>
 								<!-- Features -->
 
 										<h2 class="major" style="margin-bottom: 0px";><span>Nous trouver</span></h2>
-										<p style="text-align: center;margin-bottom: 0;"><br><a href="https://ul.waze.com/ul?ll=47.84438891%2C-2.75144330&navigate=yes&zoom=17&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location"><img src="https://logo-teka.com/wp-content/uploads/2026/01/waze-icon-logo.svg" alt="Itiniraire Waz de l'Ecurie Roc Hened" style="max-width:35px;" /></a></p>
-                                            <section id="contact-carte">  
+										<section id="contact-carte">  
                                                     <div class="carte-google">
                                                         <!-- Remplace cette iframe par celle copiée depuis Google Maps -->
                                                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3176.164541592972!2d-2.7573541!3d47.8473257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2813f11f23f9a687%3A0x1332473a096e62d7!2sEcurie%20Roc%20Hened!5e1!3m2!1sfr!2sfr!4v1793430008915!5m2!1sfr!2sfr" 
@@ -95,26 +103,42 @@
 
 
 
-									<h2 class="major" style="margin-bottom: 0px";><span>Formulaire de contact</span></h2>
-									<form action="contact.php" method="post">
-										<input type="text" name="website" style="display:none">
-										<label style="margin-bottom: 0px;" for="nom">Nom</label>
-										<input type="text" id="nom" name="nom" required>
+												<h2 class="major" style="margin-bottom: 0px;"><span>Formulaire de contact</span></h2>
 
-										<label style="margin-bottom: 0px;margin-top: 10px;" for="email">E-mail</label>
-										<input type="email" id="email" name="email" required>
+												<form action="https://api.web3forms.com/submit" method="POST">
 
-										<label style="margin-bottom: 0px;margin-top: 10px;" for="telephone">Téléphone</label>
-										<input type="tel" id="telephone" name="telephone">
+													<input type="hidden" name="access_key" value="9990425f-7ea9-42d9-a316-d164ccb2eed8">
 
-										<label style="margin-bottom: 0px;margin-top: 10px;" for="message">Message</label>
-										<textarea id="message" name="message" rows="6" required></textarea>
-										<p class="rgpd">
-										En soumettant ce formulaire, vous acceptez que les informations saisies soient utilisées dans le cadre de votre demande de contact.
-										</p>
-										<button type="submit">Envoyer</button>
+													<input type="hidden" name="redirect" value="https://mashayekhimarvin.github.io/Ecurie_Roc_Hened/merci.html">
 
-									</form>
+													<input type="hidden" name="subject" value="Nouveau message depuis roc-hened.fr">
+
+													<input type="hidden" name="from_name" value="Site Roc Hened">
+
+													<input type="checkbox" name="botcheck" style="display:none;">
+
+													<label style="margin-bottom:0;" for="nom">Nom</label>
+													<input type="text" id="nom" name="nom" required>
+
+													<label style="margin-bottom:0;margin-top:10px;" for="email">E-mail</label>
+													<input type="email" id="email" name="email" required>
+
+													<label style="margin-bottom:0;margin-top:10px;" for="telephone">Téléphone</label>
+													<input type="tel" id="telephone" name="telephone">
+
+													<label style="margin-bottom:0;margin-top:10px;" for="message">Message</label>
+													<textarea id="message" name="message" rows="6" required></textarea>
+
+													<div class="rgpd" style="margin:15px 0;">
+														<input type="checkbox" id="rgpd" name="rgpd" required class="rgpd-checkbox">
+														<label for="rgpd" style="display:inline;">
+															 J’accepte que les informations saisies dans ce formulaire soient utilisées exclusivement pour traiter ma demande de contact. Ces données ne seront ni cédées à des tiers ni utilisées à des fins commerciales.
+														</label>
+													</div>
+
+													<button type="submit">Envoyer</button>
+
+												</form>
 
 									
 								</div>
@@ -137,8 +161,8 @@
  									   06 01 29 48 51
 										</a><br>
 									✉️ Email :
-									<a href="mailto:contact@roc-hened.fr">
-    								contact@roc-hened.fr
+									<a href="mailto:drula.c@gmx.fr">
+    								drula.c@gmx.fr
 									</a><br>
 									<ul class="contact">
 											<li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/DrulaClement/"target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
