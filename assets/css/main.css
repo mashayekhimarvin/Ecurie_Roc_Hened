@@ -3268,6 +3268,7 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
     .prestations-tableau {
         flex-direction: column;
+		gap: 0px;
     }
 
     .prestations-tableau-contenu,
@@ -4242,10 +4243,14 @@ input, select, textarea {
 
 @media screen and (max-width: 736px) {
 
-    .deux-images-texte {
-        flex-direction: row;
-        gap: 10px;
-    }
+	.deux-images-texte {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
 
     .deux-images-texte-image {
         flex: 1;
@@ -4255,6 +4260,10 @@ input, select, textarea {
         flex: 1.2;
         font-size: 0.9em;
     }
+    .deux-images-texte-contenu ul {
+        width: 200px;
+    }
+	
 }
 
 
