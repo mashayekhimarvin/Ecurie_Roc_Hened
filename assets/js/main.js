@@ -1,9 +1,3 @@
-/*
-	TXT by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -72,3 +66,21 @@
 				});
 
 })(jQuery);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const email = [
+        "contact",
+        "@",
+        "roc-hened.fr"
+    ].join("");
+
+    const link = document.createElement("a");
+    link.href = `mailto:${email}`;
+    link.textContent = email;
+
+    document
+        .getElementById("email-contact")
+        .appendChild(link);
+});
