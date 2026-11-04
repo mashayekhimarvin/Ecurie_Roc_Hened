@@ -4295,3 +4295,22 @@ input, select, textarea {
 .tableau-pourqui th {
     width: 50%;
 }
+
+.petit-ecart {
+    line-height: 1.1; /* valeur par défaut ≈ 1.4 à 1.6 */
+	margin-bottom: 10px;
+}
+
+
+.elevage-image {
+    flex: 1;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.elevage-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
