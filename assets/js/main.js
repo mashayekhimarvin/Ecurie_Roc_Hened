@@ -86,15 +86,23 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+
     const telephone = String.fromCharCode(
         48,54,48,49,50,57,52,56,53,49
     );
 
-    const lien = document.getElementById("tel-link");
+    const container = document.getElementById("tel-contact");
 
-    lien.href = "tel:" + telephone;
-    lien.textContent = telephone.replace(
-        /(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/,
-        "$1 $2 $3 $4 $5"
-    );
+    if (container) {
+
+        const link = document.createElement("a");
+
+        link.href = "tel:" + telephone;
+        link.textContent = telephone.replace(
+            /(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/,
+            "$1 $2 $3 $4 $5"
+        );
+
+        container.appendChild(link);
+    }
 });
