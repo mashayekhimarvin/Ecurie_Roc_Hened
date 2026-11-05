@@ -2,10 +2,10 @@ const chevaux = {
 
     cheval1: {
         photos: [
-            "images/vente/cheval1/miss_brenda.jpg",
+            "images/vente/cheval1/ae8da97d-511e-457d-a2d3-9d992a39e034.jpg",
             "images/vente/cheval1/da850c1c-757b-4bb9-a05d-20ffda3aab26.jpg",
             "images/vente/cheval1/6c4195d9-bc8d-4ef8-a1a8-ebc896eb2c7b.jpg",
-            "images/vente/cheval1/ae8da97d-511e-457d-a2d3-9d992a39e034.jpg"
+            "images/vente/cheval1/miss_brenda.jpg"
         ]
     },
 
