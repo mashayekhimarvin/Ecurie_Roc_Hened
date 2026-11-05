@@ -78,3 +78,9 @@ https://www.roc-hened.fr
 Vérifie qu'aucune erreur n'est remontée.
 
 
+
+
+Procedure création page actualité : 
+
+modifier dans le head le line : <link rel="canonical" href="https://roc-hened.fr/actu_site_internet.html" />
+
