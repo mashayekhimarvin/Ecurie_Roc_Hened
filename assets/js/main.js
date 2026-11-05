@@ -84,3 +84,17 @@ document.addEventListener("DOMContentLoaded", () => {
         .getElementById("email-contact")
         .appendChild(link);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const telephone = String.fromCharCode(
+        48,54,48,49,50,57,52,56,53,49
+    );
+
+    const lien = document.getElementById("tel-link");
+
+    lien.href = "tel:" + telephone;
+    lien.textContent = telephone.replace(
+        /(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/,
+        "$1 $2 $3 $4 $5"
+    );
+});
